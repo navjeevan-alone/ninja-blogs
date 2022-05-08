@@ -1,0 +1,48 @@
+{
+  "blogs": [
+    {
+      "title": "First Blog is now second blog",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloremque totam. Unde consectetur nemo, magnam consequuntur numquam eum soluta 0 Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "author": "jim",
+      "tags": [
+        "tag-1",
+        "tag-2"
+      ],
+      "timestamp": "26-4-2022 12:39",
+      "id": 1
+    },
+    {
+      "title": "Latest News",
+      "body": " Placeat in maiores at nam minima sed hic. Commodi cumque tenetur ipsum magni? ",
+      "author": "diana",
+      "tags": [
+        "tag-1",
+        "tag-2"
+      ],
+      "timestamp": "25-04-2022",
+      "id": 2
+    },
+    {
+      "title": "My friend updated ",
+      "body": "Dolore quaerat et eaque dolores, ad debitis recusandae quidem!",
+      "author": "jim",
+      "tags": [
+        "tag-1",
+        "tag-2"
+      ],
+      "timestamp": "26-4-2022 12:39",
+      "id": 3
+    },
+    {
+      "title": "navjeevan",
+      "body": "alone",
+      "author": "jim",
+      "tags": [
+        "tag-1",
+        "tag-2"
+      ],
+      "timestamp": "1-5-2022 10:18 \n    ",
+      "id": 4
+    }
+  ]
+}

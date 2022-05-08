@@ -1,0 +1,143 @@
+/* color scheme */
+:root {
+  --primary: #e91e63;
+  --dark-primary: #c2185b;
+  --light-primary: #f8bbd0;
+  --accent: #ff4081;
+  --light: #ffffff;
+  --dark: #000;
+  --secondary-text: #404040;
+  --divider: #bdbdbd;
+  --body: rgb(245, 245, 245);
+  --shadow: #bdbdbd;
+  --shadow-color-2-1: #3135384d;
+  --shadow-color-2-2: #3c404326;
+}
+/*  dark pallete*/
+body {
+  background: var(--body);
+}
+body.dark-theme {
+  background: var(--body);
+  --primary: #fd59ff;
+  --dark-primary: #c2185b;
+  --light-primary: #f8bbd0;
+  --accent: #ff4081;
+  --light: #1e1e1e;
+  --dark: #d9d9d9;
+  --secondary-text: #d9d9d9;
+  --divider: #2f2f2f;
+  --body: #121212;
+  --shadow: transparent;
+  --shadow-color-2-1: transparent;
+  --shadow-color-2-2: transparent;
+}
+
+/*  */
+.text-bold {
+  font-weight: bold;
+}
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary-text);
+}
+.text-dark-primary {
+  color: var(--dark-primary);
+}
+.text-light-primary {
+  color: var(--light-primary);
+}
+.text-light {
+  color: var(--light);
+}
+.text-dark {
+  color: var(--dark);
+}
+
+/*  */
+/* utilites */
+.divider {
+  border: 1px solid var(--divider);
+}
+/* background-color color classes */
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-dark-primary {
+  background-color: var(--dark-primary);
+}
+.bg-light-primary {
+  background-color: var(--light-primary);
+}
+.bg-accent {
+  background-color: var(--accent);
+}
+.bg-light {
+  background-color: var(--light);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+
+/* material icons styling */
+/* Rules for sizing the icon. */
+.text-16 {
+  font-size: 16px;
+}
+.text-18 {
+  font-size: 18px;
+}
+.text-24 {
+  font-size: 24px;
+}
+.text-36 {
+  font-size: 36px;
+}
+.text-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+/* margin */
+.mt-2 {
+  margin-top: 2rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+*::placeholder {
+  color: var(--dark);
+}
+/*new dark color pallete  */
+body.dark-theme {
+  background: var(--body);
+  --primary: #fd59ff;
+  --dark-primary: #c2185b;
+  --light-primary: #f8bbd0;
+  --accent: #ff4081;
+  --light: #1e1e1e;
+  --dark: #d9d9d9;
+  --secondary-text: #d9d9d9;
+  --divider: #2f2f2f;
+  --body: #121212;
+  --shadow: transparent;
+  --shadow-color-2-1: transparent;
+  --shadow-color-2-2: transparent;
+}
