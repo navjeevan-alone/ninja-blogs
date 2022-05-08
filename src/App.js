@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TagsInput from "./components/TagsInput";
 // import AnimatedRoutes from "./components/AnimatedRoutes";
+// this is comment added for testing git
 import Home from "./components/Home";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
