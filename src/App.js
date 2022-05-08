@@ -3,7 +3,7 @@ import "./css/Styles.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TagsInput from "./components/TagsInput";
-import AnimatedRoutes from "./components/AnimatedRoutes";
+// import AnimatedRoutes from "./components/AnimatedRoutes";
 import Home from "./components/Home";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
